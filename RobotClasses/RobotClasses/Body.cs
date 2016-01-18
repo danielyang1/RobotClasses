@@ -1,0 +1,20 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace RobotClasses
+{
+    class body
+    {
+            {
+        string skin = "carbon fiber";
+        string back = "thrusters";
+
+        public virtual void fly()
+        {
+            Console.WriteLine("Take Flight!");
+        }
+    }
+}
