@@ -13,7 +13,7 @@ namespace RobotClasses
 
         public void fly()
         {
-            Console.WriteLine("5 - Fly slower but lighter weight and less fuel!");
+            Console.WriteLine("5 - Fly slower but lighter weight and requires less fuel!");
         }
     }
 }
