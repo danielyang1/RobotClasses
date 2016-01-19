@@ -6,15 +6,14 @@ using System.Threading.Tasks;
 
 namespace RobotClasses
 {
-    class body
+    class Body
     {
-            {
         string skin = "carbon fiber";
         string back = "thrusters";
 
-        public virtual void fly()
+        public void fly()
         {
-            Console.WriteLine("Take Flight!");
+            Console.WriteLine("2 - Take Flight!");
         }
     }
 }

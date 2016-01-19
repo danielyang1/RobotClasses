@@ -6,18 +6,22 @@ using System.Threading.Tasks;
 
 namespace RobotClasses
 {
-    class arm
+    class Arm
     {
         float fingers = 5;
-        float weightOfArmInLbs = 25;
-        float strength = 8;
-        float fist = 1;
-        string elbow = "rocket propulsion";
-
+        public int weightOfArmInLbs;
+        float fist = 20;
+        public Arm (int armWeight)
+        {
+            weightOfArmInLbs = armWeight;
+        }
+        public void showWeight()
+        {
+            Console.WriteLine("3 - Weight of Arms: {0}", weightOfArmInLbs);
+        }
         public void punch()
         {
-            Console.WriteLine("Launches fist at target with a strength of {0} ", fist);
+            Console.WriteLine("4 - Launches fist at target with a strength of {0} ", fist);
         }
-
     }
 }

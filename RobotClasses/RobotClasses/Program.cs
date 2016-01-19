@@ -6,13 +6,23 @@ using System.Threading.Tasks;
 
 namespace RobotClasses
 {
-    class program
+    class Program
     {
         static void Main(string[] args)
         {
-            head robotHead = new head();
+            Head robotHead = new Head();
+            Body whiteWings = new Body();
+            Arm leftArm = new Arm(75);
+            Arm rocketArm = new Arm(100);
+            SlowWingsBody wings = new SlowWingsBody();
+            Leg nikes = new Leg();
             robotHead.eyeScan();
+            whiteWings.fly();
+            leftArm.showWeight();
+            rocketArm.punch();
+            wings.fly();
+            nikes.run();
             Console.ReadKey();
         }
-    }
+    }   
 }

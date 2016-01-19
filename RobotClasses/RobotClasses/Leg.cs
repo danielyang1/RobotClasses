@@ -6,14 +6,13 @@ using System.Threading.Tasks;
 
 namespace RobotClasses
 {
-    class Head
+    class Leg
     {
-        float eyes;
-        float mouth = 1;
-
-        public void eyeScan()
+        int legs = 2;
+        int speed = 20;
+        public void run()
         {
-            Console.WriteLine("1 - Scans target(s) for threats.");
+            Console.WriteLine("6 - Sprint forward: Top speed of: {0}", speed);
         }
     }
 }
