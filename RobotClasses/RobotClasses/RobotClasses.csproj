@@ -45,11 +45,14 @@
   <ItemGroup>
     <Compile Include="Arm.cs" />
     <Compile Include="Body.cs" />
+    <Compile Include="cannon.cs" />
+    <Compile Include="gatling.cs" />
     <Compile Include="Head.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Leg.cs" />
     <Compile Include="SlowWingsBody.cs" />
+    <Compile Include="weapons.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

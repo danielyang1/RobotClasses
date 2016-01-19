@@ -16,6 +16,9 @@ namespace RobotClasses
             Arm rocketArm = new Arm(100);
             SlowWingsBody whiteWings = new SlowWingsBody();
             Leg nikes = new Leg();
+            weapons littleGuns = new weapons();
+            gatling spray = new gatling();
+            cannon boomCanon = new cannon();
 
             robotHead.eyeScan();
             wings.fly();
@@ -23,6 +26,9 @@ namespace RobotClasses
             rocketArm.punch();
             whiteWings.fly();
             nikes.run();
+            littleGuns.shoot();
+            spray.shoot();
+            boomCanon.shoot();
             Console.ReadKey();
         }
     }   
